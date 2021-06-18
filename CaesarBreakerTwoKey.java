@@ -10,8 +10,6 @@ public class CaesarBreakerTwoKey
         {
             sb.append(message.charAt(i));
         }
-        System.out.println();
-        System.out.println(sb.toString());
         return sb.toString();
     }
     

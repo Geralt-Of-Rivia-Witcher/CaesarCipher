@@ -23,6 +23,8 @@ public class CaesarCipherTwoKey
 
     public static void main(String[] args) throws IOException
     {
+        int key1 = 4;
+        int key2 = 10;
         File file = new File("decrypted.txt");
         StringBuilder sb = new StringBuilder("");
         Scanner sc = new Scanner(file);
@@ -34,7 +36,7 @@ public class CaesarCipherTwoKey
         File newFile = new File("encrypted.txt");
         newFile.createNewFile();
         FileWriter writer = new FileWriter("encrypted.txt");
-        writer.write(encryptTwoKeys(sb.toString(), 4, 10));
+        writer.write(encryptTwoKeys(sb.toString(), key1, key2));
         writer.close();
     }
 }

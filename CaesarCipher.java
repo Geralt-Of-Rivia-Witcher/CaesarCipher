@@ -34,6 +34,7 @@ public class CaesarCipher
 
     public static void main(String[] args) throws IOException
     {
+        int key = 4;
         File file = new File("decrypted.txt");
         StringBuilder sb = new StringBuilder("");
         Scanner sc = new Scanner(file);
@@ -45,7 +46,7 @@ public class CaesarCipher
         File newFile = new File("encrypted.txt");
         newFile.createNewFile();
         FileWriter writer = new FileWriter("encrypted.txt");
-        writer.write(encrypt(sb.toString(), 4));
+        writer.write(encrypt(sb.toString(), key));
         writer.close();
     }
 }

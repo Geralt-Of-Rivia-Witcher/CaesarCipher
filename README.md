@@ -4,7 +4,7 @@ An encryption programme that can encrypt or decrypt based on a either one or two
 It is a type of substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet.
 ***
 
-### How to use:
+## How to use:
 
 **_Encrypt using one key -_** Put the text to be encrypted in a '.txt' file called "decrypted.txt" and put the file in the root folder. The key to use for encryption can be assigned to 'key' variable in line 37. Then run "CaesarCipher.java". The encrypted text will be placed in a file called "encrypted.txt".
 

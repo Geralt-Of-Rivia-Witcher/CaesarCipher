@@ -2,7 +2,6 @@
 
 An encryption programme that can encrypt or decrypt based on a either one or two keys, based on user's choice.
 > It is a type of substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet.
-***
 
 ## How to use:
 
